@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Online Examination System
 
 A web-based platform for conducting exams digitally, built with HTML, CSS, JavaScript, and Firebase.
@@ -100,3 +101,7 @@ Online Examination System/
 │   └── result.js       # Result logic
 └── README.md           # This file
 ```
+=======
+# TestHub
+A modern Online Examination System website built with HTML, CSS, JavaScript, and Firebase featuring admin panel, student dashboard, exam management, results, authentication, and responsive design
+>>>>>>> f25d59ab85aa6da43e280b31e7c5ec33ab2dba88
