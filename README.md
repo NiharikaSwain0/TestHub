@@ -1,107 +1,118 @@
-<<<<<<< HEAD
-# Online Examination System
+# 🎯 TestHub
 
-A web-based platform for conducting exams digitally, built with HTML, CSS, JavaScript, and Firebase.
+> A Modern Online Examination System built with **HTML, CSS, JavaScript & Firebase**
 
-## Features
+![GitHub repo size](https://img.shields.io/github/repo-size/NiharikaSwain0/TestHub?color=blue)
+![GitHub stars](https://img.shields.io/github/stars/NiharikaSwain0/TestHub?style=social)
+![GitHub forks](https://img.shields.io/github/forks/NiharikaSwain0/TestHub?style=social)
 
-- **Admin Panel**: Add students, subjects, questions, and view results
-- **Student Panel**: Login, attend exams, submit answers, view score
-- **Exam Section**: Timer-based tests with multiple-choice questions
-- **Result Section**: Automatic result generation after submission
-- Secure login/signup
-- Responsive design
+---
 
-## Technologies Used
+## 📚 About Project
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Firebase
-- **Database**: Firebase Realtime Database
+**TestHub** is a smart and responsive Online Examination Platform designed for schools, colleges, coaching centers, and placement tests.
 
-## Setup Instructions
+It provides separate dashboards for **Admin** and **Students** with secure login, exam creation, result management, and modern UI.
 
-1. **Create a Firebase Project**
-   - Go to [Firebase Console](https://console.firebase.google.com/)
-   - Create a new project
-   - Enable Email/Password authentication
-   - Enable Realtime Database
+---
 
-2. **Configure Firebase**
-   - Go to Project Settings > General
-   - Scroll down to "Your apps" and add a web app
-   - Copy the Firebase configuration object
-   - Open `js/firebase.js` and replace the placeholder values with your Firebase config
+## ✨ Features
 
-3. **Set Up Database Rules**
-   - Go to Realtime Database > Rules
-   - Set the rules to:
-     ```json
-     {
-       "rules": {
-         "users": {
-           ".read": "auth != null",
-           ".write": "auth != null"
-         },
-         "subjects": {
-           ".read": "auth != null",
-           ".write": "auth != null"
-         },
-         "questions": {
-           ".read": "auth != null",
-           ".write": "auth != null"
-         },
-         "results": {
-           ".read": "auth != null",
-           ".write": "auth != null"
-         }
-       }
-     }
-     ```
+### 👨‍💼 Admin Panel
 
-4. **Run the Application**
-   - Open `index.html` in a web browser
-   - Register as an admin first
-   - Use the admin panel to add subjects, questions, and students
+* Add / Manage Exams
+* Add Questions
+* Manage Students
+* View Results
+* Dashboard Analytics
 
-## Usage
+### 👨‍🎓 Student Panel
 
-### Admin
-- Login with admin credentials
-- Add subjects
-- Add questions for each subject
-- Add students (default password: password123)
-- View all exam results
+* Secure Login / Register
+* Attend Exams
+* View Results
+* Edit Profile
+* Mobile Responsive Dashboard
 
-### Student
-- Login with student credentials
-- Select a subject and start the exam
-- Answer questions within the time limit
-- View results immediately after submission
+### 🔥 Extra Features
 
-## Project Structure
+* Firebase Authentication
+* Realtime Database
+* Beautiful UI Design
+* Fast Performance
+* Responsive for Mobile + Desktop
 
+---
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript
+* Firebase
+* GitHub Pages
+
+---
+
+## 📸 Screenshots
+
+Add your project screenshots here.
+
+---
+
+## 🚀 Live Demo
+
+Coming Soon...
+
+---
+
+## 📂 Project Structure
+
+```bash
+TestHub/
+│── index.html
+│── login.html
+│── register.html
+│── admin.html
+│── student.html
+│── css/
+│── js/
+│── images/
 ```
-Online Examination System/
-├── index.html          # Landing page
-├── login.html          # Login page
-├── register.html       # Registration page
-├── admin.html          # Admin panel
-├── student.html        # Student panel
-├── exam.html           # Exam page
-├── result.html         # Result page
-├── css/
-│   └── style.css       # Stylesheet
-├── js/
-│   ├── firebase.js     # Firebase configuration
-│   ├── login.js        # Login logic
-│   ├── register.js     # Registration logic
-│   ├── admin.js        # Admin panel logic
-│   ├── student.js      # Student panel logic
-│   ├── exam.js         # Exam logic
-│   └── result.js       # Result logic
-└── README.md           # This file
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/NiharikaSwain0/TestHub.git
+cd TestHub
 ```
-=======
-# TestHub
-A modern Online Examination System website built with HTML, CSS, JavaScript, and Firebase featuring admin panel, student dashboard, exam management, results, authentication, and responsive design
->>>>>>> f25d59ab85aa6da43e280b31e7c5ec33ab2dba88
+
+Then open:
+
+```bash
+index.html
+```
+
+---
+
+## 🌟 Future Improvements
+
+* AI Proctoring
+* Timer Based Exams
+* Certificates
+* Leaderboard
+* Dark Mode
+
+---
+
+## 👩‍💻 Developer
+
+**Niharika Swain**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a **star ⭐** on GitHub.
