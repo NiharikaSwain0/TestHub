@@ -54,18 +54,6 @@ It provides separate dashboards for **Admin** and **Students** with secure login
 
 ---
 
-## 📸 Screenshots
-
-Add your project screenshots here.
-
----
-
-## 🚀 Live Demo
-
-Coming Soon...
-
----
-
 ## 📂 Project Structure
 
 ```bash
